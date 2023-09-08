@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello World");
+        Space space = new Space('A', (byte) 1, "black");
+        System.out.println(space);
     }
 }

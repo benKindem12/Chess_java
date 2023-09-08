@@ -9,4 +9,7 @@ public class Space {
         RANK = rank;
         COLOR = color;
     }
+    public String toString() {
+        return FILE + ' ' + RANK;
+    }
 }
